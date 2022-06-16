@@ -1,0 +1,6 @@
+@import url("fm-base.css");
+@import url("foodmenu.css");
+
+body #poststuff .fmp-wrapper h2.fmp-category-title {
+    font-size: 28px;
+}

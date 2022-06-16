@@ -1,0 +1,640 @@
+# Copyright (C) 2022 tlp-food-menu
+# This file is distributed under the same license as the tlp-food-menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: tlp-food-menu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-05-16 11:06+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/init.php:16, ../lib/classes/FmInit.php:39, ../lib/classes/FmInit.php:40, ../lib/classes/FmInit.php:41, ../lib/classes/FmOptions.php:453, ../lib/classes/FmVcInit.php:55, ../lib/classes/FmVcInit.php:33, ../lib/vendor/FmElementorWidget.php:10, ../lib/vendor/FmElementorWidget.php:25, ../lib/widgets/FmWidget.php:15, ../lib/widgets/FmWidget.php:38
+msgid "Food Menu"
+msgstr ""
+
+#: ../lib/init.php:67
+msgid "Need to update Food Menu Data"
+msgstr ""
+
+#: ../lib/init.php:71
+msgid "Click here to update"
+msgstr ""
+
+#: ../lib/classes/FmActionHook.php:140
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/classes/FmActionHook.php:148
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/classes/FmFilterHook.php:24
+msgid "Facing issue?"
+msgstr ""
+
+#: ../lib/classes/FmFilterHook.php:24
+msgid "Please open a support ticket."
+msgstr ""
+
+#: ../lib/classes/FmFoodMeta.php:140
+msgid "Food Details"
+msgstr ""
+
+#: ../lib/classes/FmFoodMeta.php:155, ../lib/classes/FmFoodMeta.php:195, ../lib/classes/FmOptions.php:24, ../lib/classes/FmOptions.php:236, ../lib/classes/FmOptions.php:432
+msgid "Price"
+msgstr ""
+
+#: ../lib/classes/FmFoodMeta.php:160
+msgid "Insert the price, leave blank if it is free"
+msgstr ""
+
+#: ../lib/classes/FmFoodMeta.php:194, ../lib/classes/FmOptions.php:23
+msgid "Image"
+msgstr ""
+
+#: ../lib/classes/FmHelper.php:555
+msgid "Buy"
+msgstr ""
+
+#: ../lib/classes/FmHelper.php:556
+msgid "Demo"
+msgstr ""
+
+#: ../lib/classes/FmHelper.php:557, ../lib/classes/FmSCMeta.php:160, ../lib/classes/FmSCMeta.php:215
+msgid "Documentation"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:42
+msgid "All Foods"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:43, ../lib/classes/FmInit.php:44
+msgid "Add Food"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:45
+msgid "Edit Food"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:46
+msgid "New Food"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:47
+msgid "View Food"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:48
+msgid "Search Food"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:49
+msgid "No Food found"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:50
+msgid "No Food in the trash"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:75, ../lib/classes/FmInit.php:77, ../lib/classes/FmOptions.php:382
+msgid "Categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:76
+msgid "Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:78, ../lib/classes/FmInit.php:115
+msgid "Edit Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:79, ../lib/classes/FmInit.php:116
+msgid "Update Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:80, ../lib/classes/FmInit.php:117
+msgid "Add New Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:81, ../lib/classes/FmInit.php:118
+msgid "New Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:82, ../lib/classes/FmInit.php:119
+msgid "Parent Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:83, ../lib/classes/FmInit.php:120
+msgid "Parent Category:"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:84, ../lib/classes/FmInit.php:121
+msgid "All Categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:85, ../lib/classes/FmInit.php:122
+msgid "Search Categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:86, ../lib/classes/FmInit.php:123
+msgid "Popular Categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:87, ../lib/classes/FmInit.php:124
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:88, ../lib/classes/FmInit.php:125
+msgid "Add or remove categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:89, ../lib/classes/FmInit.php:126
+msgid "Choose from the most used  categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:90, ../lib/classes/FmInit.php:127
+msgid "No categories found."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:112
+msgid "Food Categories"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:113
+msgid "Food Category"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:114
+msgid "Categories Depricated"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:146, ../lib/classes/FmInit.php:150, ../lib/classes/FmInit.php:151, ../lib/classes/FmVcInit.php:66, ../lib/classes/FmVcInit.php:44
+msgid "ShortCode"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:147
+msgid "Food menu pro shortcode generator"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:149
+msgid "ShortCode Generator"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:152
+msgid "Edit ShortCode"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:153
+msgid "New ShortCode"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:154
+msgid "View ShortCode"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:155
+msgid "ShortCode Locations"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:156
+msgid "No ShortCode found."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:157
+msgid "No ShortCode found in trash."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:262, ../lib/classes/FmPreview.php:258
+msgid "Security Error !!"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:260
+msgid "Settings successfully updated"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:316
+msgid "Food menu pro settings"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:316
+msgid "Settings"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:321, ../lib/classes/FmInit.php:322
+msgid "Get Help"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:351, ../lib/classes/FmInit.php:352
+msgid "ShortCode options updated."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:353
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:354
+msgid "ShortCode updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: ../lib/classes/FmInit.php:356
+msgid "ShortCode restored to revision from %s"
+msgstr ""
+
+#: ../lib/classes/FmInit.php:358
+msgid "ShortCode published."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:359
+msgid "ShortCode saved."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:360
+msgid "ShortCode submitted."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:361
+msgid "ShortCode scheduled for."
+msgstr ""
+
+#: ../lib/classes/FmInit.php:362
+msgid "ShortCode draft updated."
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:11
+msgid "Field Selection"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:22, ../lib/classes/FmOptions.php:232
+msgid "Title"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:25
+msgid "Excerpt"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:52
+msgid "Stock status"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:57
+msgid "In stock"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:58
+msgid "Out of stock"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:66
+msgid "Simple Menu"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:67
+msgid "Variable Menu"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:74
+msgid "Menu order"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:79
+msgid "Enable ingredient"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:85
+msgid "Enable nutrition"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:91
+msgid "Enable reviews"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:104
+msgid "Food Menu (Slug)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:109
+msgid "This option can't be blank, must have a maximum length of 20 characters and cannot contain capital letters or spaces. <br>After each change, please resave your permalinks (Go to Dashboard > Settings > Permalinks. Click save button)."
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:113
+msgid "Currency"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:117, ../lib/classes/FmOptions.php:125
+msgid "Select one"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:121
+msgid "Currency Position"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:138
+msgid "Hide Options"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:206
+msgid "Parent class"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:208
+msgid "Parent class for adding custom css"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:212
+msgid "Button background color"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:216
+msgid "Button text color"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:220
+msgid "Button hover background color"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:224
+msgid "Button hover text color"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:228
+msgid "Button Typography"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:253, ../lib/classes/FmSCMeta.php:178
+msgid "Layout"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:259
+msgid "Desktop column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:267
+msgid "Tab column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:275
+msgid "Mobile column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:283
+msgid "Image Size"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:289
+msgid "Excerpt limit"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:290
+msgid "Excerpt limit only integer number is allowed, Leave it blank for full excerpt."
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:295
+msgid "Detail page link"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:296
+msgid "Enable"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:307
+msgid "Soft Crop"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:308
+msgid "Hard Crop"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:320
+msgid "Layout (Free)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:321
+msgid "Grid By Category (Free)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:334
+msgid "1 Column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:335
+msgid "2 Column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:336
+msgid "3 Column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:337
+msgid "4 Column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:338
+msgid "6 Column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:353
+msgid "Food item data source"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:358
+msgid "Please select a food item data source"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:361
+msgid "Include only"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:364, ../lib/classes/FmOptions.php:371
+msgid "List of post IDs to show (comma-separated values, for example: 1,2,3)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:368
+msgid "Exclude"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:375
+msgid "Limit"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:378
+msgid "The number of posts to show. Set empty to show all found posts."
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:386
+msgid "Select the category you want to filter, Leave it blank for All category"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:391
+msgid "Order By"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:398
+msgid "Order"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:412
+msgid "IN — show posts which associate with one or more of selected terms"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:414
+msgid "NOT IN — show posts which do not associate with any of selected terms"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:416
+msgid "AND — show posts which associate with all of selected terms"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:417
+msgid "EXISTS —"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:418
+msgid "NOT EXISTS —"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:429
+msgid "Menu Order"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:430
+msgid "Name"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:431
+msgid "Date"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:433
+msgid "ID"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:446
+msgid "Ascending"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:447
+msgid "Descending"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:457
+msgid "WooCommerce"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:466
+msgid "Left (£99.99)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:467
+msgid "Right (99.99£)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:468
+msgid "Left with space (£ 99.99)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:469
+msgid "Right with space (99.99 £)"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:476
+msgid "Display in 2 column"
+msgstr ""
+
+#: ../lib/classes/FmOptions.php:477
+msgid "Display in 1 column"
+msgstr ""
+
+#: ../lib/classes/FmPreview.php:248
+msgid "No post found."
+msgstr ""
+
+#: ../lib/classes/FmPreview.php:206, ../lib/classes/FmShortCode.php:216
+msgid "No category found"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:30
+msgid "Shortcode"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:145
+msgid "Short Code Generator"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:152
+msgid "Layout Preview"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:179
+msgid "Filtering"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:180
+msgid "Field selection"
+msgstr ""
+
+#: ../lib/classes/FmSCMeta.php:181
+msgid "Styling"
+msgstr ""
+
+#: ../lib/classes/FmShortCode.php:258
+msgid "No post found..."
+msgstr ""
+
+#: ../lib/classes/FmShortCode.php:443, ../lib/templates/archive-food-menu-cat.php:41
+msgid "No food found."
+msgstr ""
+
+#: ../lib/classes/FmVcInit.php:70, ../lib/classes/FmVcInit.php:48
+msgid "ShortCode list"
+msgstr ""
+
+#: ../lib/vendor/FmElementorWidget.php:35
+msgid "Select ShortCode"
+msgstr ""
+
+#: ../lib/vendor/FmElementorWidget.php:48
+msgid "Please select a food menu shordcode"
+msgstr ""
+
+#: ../lib/widgets/FmWidget.php:14
+msgid "Display Food menu"
+msgstr ""
+
+#: ../lib/widgets/FmWidget.php:43
+msgid "Title:"
+msgstr ""
+
+#: ../lib/widgets/FmWidget.php:49
+msgid "Select food menu"
+msgstr ""
+
+#: ../lib/views/settings/settings.php:3
+msgid "Food Menu Settings"
+msgstr ""
+
+#: ../lib/views/settings/settings.php:6
+msgid "General settings"
+msgstr ""
+
+#: ../lib/views/settings/settings.php:14
+msgid "General"
+msgstr ""
+
+#: ../lib/views/settings/settings.php:20
+msgid "Detail page settings"
+msgstr ""
+
+#: ../lib/views/settings/settings.php:59
+msgid "Save Changes"
+msgstr ""

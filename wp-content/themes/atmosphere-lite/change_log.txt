@@ -1,0 +1,23 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Removed multiple text domains.
+
+Version 1.1.1
+i) Escape all the functions.
+
+Version 1.1.2
+i) Escape untrusted data and added wp_reset_query() to front-page.php file.
+
+Version 1.1.3
+i) Removed holiday tag from style.css file.
+
+Version 1.1.4
+i) Changed readme file and resolved few css issues.
+
+Version 1.1.5
+i) Added skip to content button and added required tags in style.css file.
+
+Version 1.1.6
+i) Resolved few css issues.

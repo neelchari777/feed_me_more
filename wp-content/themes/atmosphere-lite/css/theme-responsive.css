@@ -1,0 +1,185 @@
+/* Mobile Portrait View */
+
+@media screen and (max-width: 479px) {
+* { box-sizing: border-box; margin:0; padding:0; }
+.container, .head-top-inner { width: 90% !important;}
+.header { position: inherit !important; background-color: #000000; padding-bottom: 20px; padding-top: 30px;}
+.header .header-inner { width: 95%;}
+.logo { float: none; text-align: center;}
+.toggle { display: block;}
+.toggle a { width: 100%; color: #ffffff; background: url(../images/mobile_nav_right.png) no-repeat right center #373a3f; padding: 10px 10px; margin-top: 20px; font-size: 16px; }
+.toggle a:hover { color: #ffffff !important;}
+.toggle a.active { color: #ffffff;}
+.nav { display: none;}
+.header-top { text-align: center; line-height: 25px; padding: 20px 0;}
+.toggleMenu {display: block;}
+.sitenav { float: none; margin: 0; top: 0; position: relative; overflow-x: hidden; width: 100%;}
+.header .sitenav ul { color: #ffffff;font-size: 13px; width: 100%; float: none; margin:0; background-color: #212121; overflow: hidden;padding:5px 0;}
+.sitenav ul li { display: block; float: none; text-align: left;}
+.sitenav ul li a { display: block;text-align: left; padding:10px 15px; color: #ffffff;}
+.header .sitenav ul li a:hover { color: #ff8800;}
+.header .sitenav ul li ul, .header .sitenav ul li ul ul { display: block; padding: 0;}
+.sitenav ul li ul li a:before { content: "\00BB \00a0"; top: 5px;}
+.header .sitenav ul li ul li { border-bottom: 1px solid transparent; border-right: none; padding-left:25px; padding-right:10px;}
+.header .sitenav ul li ul li ul li a { padding-left: 30px;}
+.header .sitenav ul li ul li ul li ul li a { padding-left: 40px;}
+.header .sitenav ul li:hover > ul { background: none; background: transparent; border: none; width: auto; display: block; position: relative; left: 0; right: 0; top: 0; padding-top: 0;}
+.sitenav ul li:hover ul li ul, .sitenav ul li:hover ul li:hover > ul, .sitenav ul li:hover ul li:hover > ul li ul {background: transparent !important;    display: block; position: relative !important; right: 0; left: 0; top: 0;}
+.sitenav ul li:hover ul li:hover ul, .sitenav ul li:hover ul li:hover ul li:hover ul { left: 0 !important;}
+.sitenav ul li a::after { background: none !important;}
+.header_right .sitenav ul li.current_page_item a { border: none; color: #ffffff;}
+.logo img { height: auto;}
+.innerbanner { height: auto;}
+.header_right { width: 100%; padding: 0;}
+.logo { width: auto; float: none; text-align: center; padding: 0 0 10px;}
+a.morebutton { display: none;}
+.nivoSlider .nivo-caption { bottom:28%;}
+.nivo-caption h6, .nivo-caption p, .nivo-caption a.button { display:none;}
+.nivoSlider .nivo-caption h2 { font-size:25px; line-height:25px; padding:10px 0;}
+h2.section-title {font-size: 22px;}
+.we-are .one_half { width:auto; margin-right:0;}
+.we-are .one_half.last_column { width:auto; padding:20px 10px;}
+
+/* ------ Extra ------ */    
+#sitemain iframe {max-width: 100%;height: auto;}
+
+/* --------- Pages ------- */    
+.content-area { width: 95%;	margin: 0 auto;	padding: 50px 0;}
+.site-main {width: 100%;margin: 0;padding: 0;float: none;}
+#sidebar {width: auto;margin: 60px 0 0;	padding: 0;	float: none;}
+.nivo-directionNav a {top: 36% !important;}
+.copyright-wrapper .inner {width: 100%;}
+.copyright { line-height: 25px; padding: 0 20px;}
+}
+
+/* Mobile Landscape View */
+
+@media screen and (max-width: 719px) and (min-width: 480px) {
+* {	box-sizing: border-box;}
+.container {width: 90% !important;}
+.header {position: inherit !important;padding-top: 30px; background-color:#000000; padding-bottom:20px;}
+.logo {float: none;	text-align: center;}
+.toggle {display: block;}
+.toggle a {	width: 100%;color: #ffffff;background: url(../images/mobile_nav_right.png) no-repeat right center #373a3f;padding: 10px 10px;margin-top: 20px;	font-size: 16px;}
+.toggle a:hover {color: #ffffff !important;}
+.toggle a.active {color: #ffffff;}
+.nav {display: none;}
+.toggleMenu {display: block;}
+.sitenav {float: none;margin: 0;top: 0;position: relative;overflow-x: hidden;width: 100%;}
+.header .sitenav ul {color: #ffffff;font-size: 13px;width: 100%;float: none;margin: 0;background-color: #212121;overflow: hidden; padding:5px 0;}
+.sitenav ul li {display: block;float: none;text-align: left;}
+.sitenav ul li a {display: block;text-align: left;padding:10px 15px;color: #ffffff;}
+.header .sitenav ul li a:hover {color: #ff8800;}
+.header .sitenav ul li ul, .header .sitenav ul li ul ul {display: block;padding: 0;}
+.sitenav ul li ul li a:before {content: "\00BB \00a0";top: 5px;}
+.header .sitenav ul li ul li {border-bottom: 1px solid transparent;border-right: none; padding-left:25px; padding-right:10px;}
+.header .sitenav ul li ul li ul li a {padding-left: 30px;}
+.header .sitenav ul li ul li ul li ul li a {padding-left: 40px;}
+.header .sitenav ul li:hover > ul {background: none;background: transparent;border: none;width: auto;display: block;position: relative;left: 0;right: 0;top: 0;padding-top: 0;}
+.sitenav ul li:hover ul li ul, .sitenav ul li:hover ul li:hover > ul, .sitenav ul li:hover ul li:hover > ul li ul {background: transparent !important;display: block;position: relative !important;right: 0;left: 0;top: 0;}
+.sitenav ul li:hover ul li:hover ul, .sitenav ul li:hover ul li:hover ul li:hover ul {left: 0 !important;}
+.sitenav ul li a::after {background: none !important;}
+.sitenav ul li.current_page_item a {border: none;color: #ffffff;}
+.logo img {height: auto;}
+.innerbanner {height: auto;}
+.logo {width: auto;float: none;text-align: center;padding: 0 0 20px;}
+a.morebutton {display: none;}
+.nivoSlider .nivo-caption { bottom:35%;}
+.nivo-caption h6, .nivo-caption p, .nivo-caption a.button { display:none;}
+.nivoSlider .nivo-caption h2 { font-size:30px; line-height:30px; padding:15px 0;}
+h2.section-title {font-size: 22px;}
+.we-are .one_half { width:auto; margin-right:0;}
+.we-are .one_half.last_column { width:auto; padding:20px;}
+
+/* ------ Extra ------ */
+#sitemain iframe {max-width: 100%;	height: auto;}
+
+/* --------- Pages ------- */
+.content-area {	width: auto;margin: 0 20px;padding: 50px 0;}
+.site-main {width: auto;margin: 0;padding: 0;float: none;}
+#sidebar {width: auto;margin: 60px 0 0;	padding: 0;	float: none;}
+.nivo-directionNav a {top: 36% !important;}
+.copyright-wrapper .inner {width: 100%;}
+.copyright {line-height: 25px;padding: 0 20px;}
+}
+
+@media screen and (max-width: 899px) and (min-width: 320px) {
+h2.section-title {line-height: 48px;font-size: 22px !important;}
+.cat_comments {	height: auto;}
+}
+/* Tablet View */
+
+@media screen and (max-width: 999px) and (min-width: 720px) {
+* {	box-sizing: border-box;}
+.nivo-directionNav a {top: 42% !important;}
+.container {width: 90% !important;}
+.header {position: inherit !important;padding-top: 30px;}
+.logo {	float: none;text-align: center;}
+.toggle {display: block;}
+.toggle a {	width: 100%;color: #ffffff;	background: url(../images/mobile_nav_right.png) no-repeat right center #373a3f;	padding: 10px 10px;	margin-top: 20px;	font-size: 16px;}
+.toggle a:hover {color: #ffffff !important;}
+.toggle a.active {color: #ffffff;}
+.header {text-align: center;line-height: 25px;padding: 20px 0;background-color:#000000;}
+.toggleMenu {display: block;}
+.sitenav {float: none;margin: 0;top: 0;position: relative;overflow-x: hidden;width: 100%;}
+.header .sitenav ul {color: #ffffff;font-size: 13px;width: 100%;float: none;margin: 0; padding:5px 0;background-color: #212121;overflow: hidden;}
+.sitenav ul li {display: block;float: none;text-align: left;}
+.sitenav ul li a {display: block;text-align: left;padding:10px 15px;color: #ffffff;}
+.header .sitenav ul li a:hover {color: #ff8800;}
+.header .sitenav ul li ul, .header .sitenav ul li ul ul {display: block;padding: 0;}
+.sitenav ul li ul li a:before {content: "\00BB \00a0";top: 5px;}
+.header .sitenav ul li ul li {border-bottom: 1px solid transparent;border-right: none; padding-left:25px; padding-right:10px;}
+.header .sitenav ul li ul li ul li a {padding-left: 30px;}
+.header-top .sitenav ul li ul li ul li ul li a {padding-left: 40px;}
+.header .sitenav ul li:hover > ul {background: none;background: transparent;border: none;width: auto;display: block;position: relative;left: 0;right: 0;top: 0;padding-top: 0;}
+.sitenav ul li:hover ul li ul, .sitenav ul li:hover ul li:hover > ul, .sitenav ul li:hover ul li:hover > ul li ul {background: transparent !important;display: block;position: relative !important;right: 0;left: 0;top: 0;}
+.sitenav ul li:hover ul li:hover ul, .sitenav ul li:hover ul li:hover ul li:hover ul {left: 0 !important;}
+.sitenav ul li a::after {background: none !important;}
+.sitenav ul li.current_page_item a {border: none;color: #ffffff;}
+.logo img {height: auto;}
+.innerbanner {height: auto;}
+.logo {width: auto;float: none;text-align: center;padding: 0 0 20px;}
+a.morebutton {display: none;}
+.nivoSlider .nivo-caption h2 { line-height:30px; font-size:30px; padding:10px 0;}
+.nivo-caption h6 { display:none;}
+h2.section-title {font-size: 22px;}
+.we-are .one_half.last_column { padding-right:0;}
+
+/* --------- Pages ------- */
+.content-area {	width: auto;margin: 0 20px;	padding: 50px 0;}
+.site-main {width: 60%;	margin: 0;padding: 0;float: left;}
+#sidebar {width: 35%;margin: 0;	padding: 0;	float: right;}
+.copyright-wrapper .inner {width: 100%;}
+.copyright {line-height: 25px;padding: 0 20px;}
+}
+
+@media screen and (min-width: 1000px) {
+.header .header-inner .sitenav ul li ul li {display: block;	position: relative;	float: none;}
+.header .header-inner .sitenav ul li ul li a {color: #ffffff;display: block;padding-top: 10px;padding-bottom: 10px;	border-bottom: 1px #313131 solid;}
+.site-main {width: 70%;}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1159px) {
+.container{
+	width: 95% !important;
+}
+.header {
+	width:100%; top:40px;
+}
+.logo { padding-left:0;}
+.header .sitenav ul li { margin-right:20px;}
+
+.nivo-caption {
+	bottom: 12% !important;
+	height: auto !important;
+}
+.nivoSlider .nivo-caption h2 { line-height:30px; font-size:30px; padding:10px 0;}
+.cat_comments {
+	left: 35px;
+	width: 25%;
+}
+.content-area {
+	width: 95%;
+}
+.we-are .one_half.last_column { padding-right:0;}
+}
